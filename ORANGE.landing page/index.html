@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ORANGE.COM</title>
+	<link href='https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.header {
+  background-color: black;
+  color: white; /* Set text color to white for better visibility */
+  min-height: -30vh;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo img {
+  align-items: left;
+  max-width: 150px; /* Adjust the max-width as needed */
+}
+
+/* Style the header title */
+.header-title {
+  margin-left: 50vh;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px 0;
+  text-align: center; /* Add this line to center-align the text */
+  font-family: fantasy;
+}
+
+.tagline p {
+  font-size: 24px; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the tagline */
+  margin-top: 15vh;
+  margin-left: -45vh;
+}
+
+/* Style the navigation menu */
+.navmenu {
+	background-color: peachpuff;
+	min-height: 5vh;
+	margin-top: 0vh;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style for navmenu items */
+.navmenu li {
+  display: inline; /* Display menu items horizontally */
+  margin: 0 80px; /* Add some spacing between menu items */
+}
+
+/* Style for navmenu links */
+.navmenu a {
+  text-decoration: none;
+  color: Black;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navmenu a:hover {
+     transform: scale(1.1);
+}
+
+/* Style the navigation icons */
+.nav-icon {
+  display: flex;
+  justify-content: flex-end; /* Align icons to the right */
+   margin-right: 10px;
+   gap: 10px;
+}
+
+/* Style the individual icon links */
+.nav-icon a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px; /* Add some spacing between icons */
+}
+
+/* Style the menu icon */
+#menu-icon {
+  display: none; /* Hide the menu icon by default on larger screens */
+  display: block; /* Show the menu icon */
+    float: left; /* Float the menu icon to the left */
+    margin-left: 10px; /* Add some margin to the left for spacing */
+}
+
+/* Media query to show menu icon on smaller screens */
+@media screen and (max-width: 768px) {
+  .navmenu {
+    display: none; /* Hide the navmenu on smaller screens */
+  }
+}
+.main-home::before {   
+      background-image: url('clem-onojeghuo-qGxhaKETzsY-unsplash.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      margin-top:33vh;
+      right: 0px;
+      bottom: 0px;
+      margin-left: 9px;
+}
+.main-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.5) for transparency */
+  pointer-events: none; /* Allows interaction with elements behind the overlay */
+   
+}
+.image-section {
+	  background-color: peachpuff;
+      text-align: center;
+      margin-top: 150px;
+       /* Adjust margin as needed */
+    }
+
+    .image-container {
+      display: inline-block;
+      margin: 0 10px; /* Adjust margin between images */
+      border: 2px solid black; /* Add a border around the images */
+      padding: 10px; /* Add padding around the images */
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .button-section {
+      text-align: center;
+      margin-top: 20px; /* Adjust margin as needed */
+    }
+
+    .button-section button {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+/* Define the glowing text class */
+.glowing-text {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: transparent; /* Set text color to transparent */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Adjust letter spacing as needed */
+  animation: glowing 2s infinite; /* Apply the glowing animation */
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 1px rgba(180,206,255, 1), 0 0 10px rgba(180,206,255, 1);
+  }
+  50% {
+    text-shadow: 0 0 2.5px rgba(180,206,255, 1), 0 0 15px rgba(180,206,255, 1);
+  }
+  100% {
+    text-shadow: 0 0 1px rgba(180,206,255, 1), 0 0 10px rgba(180,206,255, 1);
+  }
+}
+ .contents-inside{
+  
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  font-size: 80px; /* Add font-size to control the header size */;
+ }
+ .contact-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  margin-top: -90px;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #555;
+}
+
+	</style>
+
+</head>
+<body>
+	 <header class="header">
+        <div class="logo"><img src="logoorange.png" alt="logo"></div>
+        <div class="header-title" ><i>ORANGE . COM </i></div> <!-- New heading for the website name -->
+        <div class="tagline">
+        	<p><i style="font-family: fantasy;">One stop for men fashion</i></p>
+</div>
+        <div class="main-home"></div>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+</div>
+	</header>
+	<ul class="navmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">About</a></li>
+    </ul>
+      <div class="main-home">
+      <div class="contents-inside">
+  		<h1 style="size: 80px;">WINTER</h1><span>.</span>
+</div>
+</div>
+      <div class="image-section">
+  	     <H1 class="glowing-text"style="font-size: 80px;">SHOP NOW</h1><span>.</span>
+      <div class="image-container">
+         <img src="d1.jpg" alt="Image 1" style="width: 200px; height: 200px;">
+      <div class="button-section">
+         <button>Add to Cart</button>
+         <button>Shop Now</button>
+</div>
+</div>
+      <div class="image-container">
+          <img src="d2.jpg" alt="Image 2" style="width: 200px; height: 200px;">
+      <div class="button-section">
+        <button>Add to Cart</button>
+        <button>Shop Now</button>
+</div>
+</div>
+      <div class="image-container">
+         <img src="d3.jpg" alt="Image 3" style="width: 200px; height: 200px;">
+      <div class="button-section">
+        <button>Add to Cart</button>
+        <button>Shop Now</button>
+</div>
+</div>
+     <div class="image-container">
+        <img src="d4.jpeg" alt="Image 4" style="width: 200px; height: 200px;">
+     <div class="button-section">
+        <button>Add to Cart</button>
+        <button>Shop Now</button>
+</div>
+</div>
+    <div class="image-container">
+         <img src="d5.jpg" alt="Image 1" style="width: 200px;height: 200px;">
+    <div class="button-section">
+        <button>Add to Cart</button>
+        <button>Shop Now</button>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

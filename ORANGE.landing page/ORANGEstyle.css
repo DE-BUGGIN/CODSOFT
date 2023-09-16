@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+}
+
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+	position: relative;
+}
+/* Header */
+
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+/* New Heading for Website Name */
+.header-title {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+   /* margin-left: 50px; /* Adjust margin for spacing */
+}
+/* Navigation Menu */
+.main-home .navmenu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+}
+
+/* Remove bullet points and make list items display inline */
+.navmenu {
+    list-style: none;
+    display: flex; /* Display list items horizontally */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.navmenu li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.navmenu a {
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navmenu a:hover {
+    color: #EE1C47;
+}
+
+
+/* Navigation Icons */
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i {
+    margin-right: 20px;
+    color: white; /* Set icon color to white */
+    font-size: 25px;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover {
+    transform: scale(1.1);
+    color: #EE1C47;
+}
+
+/* Main Background Image */
+.main-home {
+	margin-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(alexi-romano-CCx6Fz_CmOI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10% 0; /* Adjust vertical padding */
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* Section */
+.main-home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bkgi.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10% 0; /* Adjust vertical padding */
+    text-align: center; /* Center text within the section */
+}
+
+
+/* Make the heading white */
+.main-text h5,
+.main-text h1 {
+    color: #fff;
+}
+
+/* Additional Styling for the buttons */
+.main-btn {
+    background-color: #EE1C47;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.main-btn:hover {
+    background-color: #FF3366;
+}
+
+}
+#menu-icon{
+	font-size: 35px;
+	color: #2c2c2c;
+	z-index: 10001;
+	cursor: pointer;
+}
+.section{
+	padding: 5% 10%;
+}
+.main-home{
+	width: 100%;
+	height: 100vh;
+	background-image: url(alexi-romano-CCx6Fz_CmOI-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+}
+.main-text h5{
+   color: #EE1C47;
+   font-size: 16px;	
+   text-transform: capitalize;
+   font-weight: 500;
+}
+.main-text h1{
+	color: #000;
+	font-size: 65px;
+	text-transform: capitalize;
+	line-height: 1.1;
+	font-weight: 600;
+	margin: 6px 0 10px;
+}
+.main-text p{
+	color: #333c56;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.main-btn{
+	display: inline-block;
+	color: #111;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+	border: 2px solid #111;
+	padding: 12px 25px;
+	transition: all .42s ease;
+}
+

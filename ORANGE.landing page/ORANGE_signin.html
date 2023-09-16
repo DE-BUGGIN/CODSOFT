@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ORANGE.COM</title>
+	<link rel="stylesheet" type="text/css" href="ORANGEstyle.css">
+	<link href='https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<style>
+		/* Header */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+   /* flex-direction: column; /* Stack elements vertically */
+   /* align-items: flex-end;*/ /* Align items to the right edge */
+   /* justify-content: space-between;*/
+   /* padding: 20px 10%;*/
+    background-image: url('bgi3.jpg'); /* Add your image URL here */
+    background-size: cover; 
+    color: white; /* Set text color to white */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+/* New Heading for Website Name */
+.header-title {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px; /* Adjust margin for spacing */
+}
+
+/* Navigation Menu */
+.navmenu {
+    list-style: none;
+    display: flex; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between menu items and the right edge */
+}
+
+.navmenu li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.navmenu a {
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navmenu a:hover {
+    color: #EE1C47;
+}
+
+	</style>
+</head>
+<body>
+	 <header class="header">
+        <div class="logo"><img src="logoorange.png" alt="logo"></div>
+        <div class="header-title">ORANGE.COM</div> <!-- New heading for the website name -->
+        <ul class="navmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Docs</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div id="menu-icon"><i class='bx bx-menu'></i></div>
+        </div>
+	</header>
+
+	 <section class="main-home">
+        <div class="main-text">
+            <h5>Winter Collection</h5>
+            <h1>New Winter <br> Collection 2023</h1>
+            <p>Trend's Everywhere</p>
+            <a href="#" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+	</section>
+
+	<div class="wrapper">
+		<!-- Content goes here -->
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

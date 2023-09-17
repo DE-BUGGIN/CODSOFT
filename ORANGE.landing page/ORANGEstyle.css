@@ -48,7 +48,6 @@ body{
     color: white;
 }
 
-/* Remove bullet points and make list items display inline */
 .navmenu {
     list-style: none;
     display: flex; /* Display list items horizontally */
